@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		2720A1BF265ED5F7007804E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720A1BE265ED5F7007804E5 /* AppDelegate.swift */; };
 		2720A1C1265ED5F7007804E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720A1C0265ED5F7007804E5 /* SceneDelegate.swift */; };
-		2720A1C3265ED5F7007804E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720A1C2265ED5F7007804E5 /* ViewController.swift */; };
+		2720A1C3265ED5F7007804E5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720A1C2265ED5F7007804E5 /* LoginVC.swift */; };
 		2720A1C6265ED5F7007804E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2720A1C4265ED5F7007804E5 /* Main.storyboard */; };
 		2720A1C8265ED5F9007804E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2720A1C7265ED5F9007804E5 /* Assets.xcassets */; };
 		2720A1CB265ED5F9007804E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2720A1C9265ED5F9007804E5 /* LaunchScreen.storyboard */; };
+		2733303B2663B9C20049D08A /* MasterPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2733303A2663B9C20049D08A /* MasterPageVC.swift */; };
+		27CF37CC2660183300AB0AD9 /* SingupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CF37CB2660183300AB0AD9 /* SingupVC.swift */; };
+		8A39FE3AEC26D4334D123352 /* Pods_UserLoginScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81070800EB8A85760BC95069 /* Pods_UserLoginScreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2720A1BB265ED5F7007804E5 /* RamazanUserInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamazanUserInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2720A1BB265ED5F7007804E5 /* UserLoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2720A1BE265ED5F7007804E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2720A1C0265ED5F7007804E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2720A1C2265ED5F7007804E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2720A1C2265ED5F7007804E5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		2720A1C5265ED5F7007804E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2720A1C7265ED5F9007804E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2720A1CA265ED5F9007804E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2720A1CC265ED5F9007804E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2733303A2663B9C20049D08A /* MasterPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterPageVC.swift; sourceTree = "<group>"; };
+		27CF37CB2660183300AB0AD9 /* SingupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupVC.swift; sourceTree = "<group>"; };
+		81070800EB8A85760BC95069 /* Pods_UserLoginScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7CE8AE80BA91F17A458749 /* Pods-UserLoginScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginScreen.debug.xcconfig"; path = "Target Support Files/Pods-UserLoginScreen/Pods-UserLoginScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		C37AC2D36A9F9FFC2F1B059B /* Pods-UserLoginScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginScreen.release.xcconfig"; path = "Target Support Files/Pods-UserLoginScreen/Pods-UserLoginScreen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A39FE3AEC26D4334D123352 /* Pods_UserLoginScreen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,51 +49,75 @@
 		2720A1B2265ED5F7007804E5 = {
 			isa = PBXGroup;
 			children = (
-				2720A1BD265ED5F7007804E5 /* RamazanUserInterface */,
+				2720A1BD265ED5F7007804E5 /* UserLoginScreen */,
 				2720A1BC265ED5F7007804E5 /* Products */,
+				703F66768098A49E781EAE8E /* Pods */,
+				E3EDC7B9E2797ED587B8A93C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2720A1BC265ED5F7007804E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2720A1BB265ED5F7007804E5 /* RamazanUserInterface.app */,
+				2720A1BB265ED5F7007804E5 /* UserLoginScreen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2720A1BD265ED5F7007804E5 /* RamazanUserInterface */ = {
+		2720A1BD265ED5F7007804E5 /* UserLoginScreen */ = {
 			isa = PBXGroup;
 			children = (
 				2720A1BE265ED5F7007804E5 /* AppDelegate.swift */,
 				2720A1C0265ED5F7007804E5 /* SceneDelegate.swift */,
-				2720A1C2265ED5F7007804E5 /* ViewController.swift */,
+				2720A1C2265ED5F7007804E5 /* LoginVC.swift */,
+				27CF37CB2660183300AB0AD9 /* SingupVC.swift */,
+				2733303A2663B9C20049D08A /* MasterPageVC.swift */,
 				2720A1C4265ED5F7007804E5 /* Main.storyboard */,
 				2720A1C7265ED5F9007804E5 /* Assets.xcassets */,
 				2720A1C9265ED5F9007804E5 /* LaunchScreen.storyboard */,
 				2720A1CC265ED5F9007804E5 /* Info.plist */,
 			);
-			path = RamazanUserInterface;
+			path = UserLoginScreen;
+			sourceTree = "<group>";
+		};
+		703F66768098A49E781EAE8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA7CE8AE80BA91F17A458749 /* Pods-UserLoginScreen.debug.xcconfig */,
+				C37AC2D36A9F9FFC2F1B059B /* Pods-UserLoginScreen.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3EDC7B9E2797ED587B8A93C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81070800EB8A85760BC95069 /* Pods_UserLoginScreen.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2720A1BA265ED5F7007804E5 /* RamazanUserInterface */ = {
+		2720A1BA265ED5F7007804E5 /* UserLoginScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2720A1CF265ED5F9007804E5 /* Build configuration list for PBXNativeTarget "RamazanUserInterface" */;
+			buildConfigurationList = 2720A1CF265ED5F9007804E5 /* Build configuration list for PBXNativeTarget "UserLoginScreen" */;
 			buildPhases = (
+				C1286C7740A1FD379B0A8613 /* [CP] Check Pods Manifest.lock */,
 				2720A1B7265ED5F7007804E5 /* Sources */,
 				2720A1B8265ED5F7007804E5 /* Frameworks */,
 				2720A1B9265ED5F7007804E5 /* Resources */,
+				683FF0D755B284E17EBCCC7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RamazanUserInterface;
+			name = UserLoginScreen;
 			productName = RamazanUserInterface;
-			productReference = 2720A1BB265ED5F7007804E5 /* RamazanUserInterface.app */;
+			productReference = 2720A1BB265ED5F7007804E5 /* UserLoginScreen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2720A1B6265ED5F7007804E5 /* Build configuration list for PBXProject "RamazanUserInterface" */;
+			buildConfigurationList = 2720A1B6265ED5F7007804E5 /* Build configuration list for PBXProject "UserLoginScreen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2720A1BA265ED5F7007804E5 /* RamazanUserInterface */,
+				2720A1BA265ED5F7007804E5 /* UserLoginScreen */,
 			);
 		};
 /* End PBXProject section */
@@ -132,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		683FF0D755B284E17EBCCC7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserLoginScreen/Pods-UserLoginScreen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserLoginScreen/Pods-UserLoginScreen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserLoginScreen/Pods-UserLoginScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1286C7740A1FD379B0A8613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UserLoginScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2720A1B7265ED5F7007804E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2720A1C3265ED5F7007804E5 /* ViewController.swift in Sources */,
+				27CF37CC2660183300AB0AD9 /* SingupVC.swift in Sources */,
+				2720A1C3265ED5F7007804E5 /* LoginVC.swift in Sources */,
+				2733303B2663B9C20049D08A /* MasterPageVC.swift in Sources */,
 				2720A1BF265ED5F7007804E5 /* AppDelegate.swift in Sources */,
 				2720A1C1265ED5F7007804E5 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,17 +360,18 @@
 		};
 		2720A1D0265ED5F9007804E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7CE8AE80BA91F17A458749 /* Pods-UserLoginScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCQ4T5Z63C;
-				INFOPLIST_FILE = RamazanUserInterface/Info.plist;
+				INFOPLIST_FILE = UserLoginScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhammedyildirim.RamazanUserInterface;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammedyildirim.UserLoginScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,17 +380,18 @@
 		};
 		2720A1D1265ED5F9007804E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37AC2D36A9F9FFC2F1B059B /* Pods-UserLoginScreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCQ4T5Z63C;
-				INFOPLIST_FILE = RamazanUserInterface/Info.plist;
+				INFOPLIST_FILE = UserLoginScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhammedyildirim.RamazanUserInterface;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammedyildirim.UserLoginScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2720A1B6265ED5F7007804E5 /* Build configuration list for PBXProject "RamazanUserInterface" */ = {
+		2720A1B6265ED5F7007804E5 /* Build configuration list for PBXProject "UserLoginScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2720A1CD265ED5F9007804E5 /* Debug */,
@@ -331,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2720A1CF265ED5F9007804E5 /* Build configuration list for PBXNativeTarget "RamazanUserInterface" */ = {
+		2720A1CF265ED5F9007804E5 /* Build configuration list for PBXNativeTarget "UserLoginScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2720A1D0265ED5F9007804E5 /* Debug */,
