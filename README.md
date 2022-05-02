@@ -1,6 +1,6 @@
 # UserLoginScreen
 
-Parse Cloud Sunucusu ile çalışan Giriş, Kaydol ve Çıkış ekranları tasarımı ve kodlanması yapılmıştır. Fikir vermesi ve yardımcı olması için burada paylaşılmıştır.
+
 
 <img width="450" alt="2021-07-24 at 15 22 21" src="https://user-images.githubusercontent.com/82177807/126868290-9946a4c1-41c5-423d-a754-9acebdfd22bb.png">
 
